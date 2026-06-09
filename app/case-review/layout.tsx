@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     type: "website",
   },
 };
-
+ 
 export default function CaseReviewLayout({ children }: { children: React.ReactNode }) {
   return (
     <>
