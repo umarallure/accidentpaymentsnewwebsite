@@ -7,8 +7,8 @@
 export const site = {
   name: "Accident Payments",
   domain: "accidentpayments.com",
-  phone: "+1 (864) 214-6065",
-  phoneHref: "tel:+18642146065",
+  phone: "+1 (800) CLAIM-NOW",
+  phoneHref: "",
   tagline: "Free Case Review. Maximum Compensation.",
   mission:
     "Ensure everyone in America gets fast, free access to legal advice — and pursues the claims they're entitled to.",
