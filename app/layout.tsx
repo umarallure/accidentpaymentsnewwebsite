@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Plus_Jakarta_Sans, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { JsonLd } from "@/components/json-ld";
+import HubSpotChat from "@/components/hubspot-chat";
 import { KEYWORDS, SITE_URL, organizationSchema, websiteSchema } from "@/lib/seo";
 import { site } from "@/lib/site";
 
@@ -102,6 +103,7 @@ export default function RootLayout({
             nodes (FAQ, breadcrumbs, service) are emitted by individual routes. */}
         <JsonLd schema={[organizationSchema(), websiteSchema()]} />
         {children}
+        <HubSpotChat />
       </body>
     </html>
   );
